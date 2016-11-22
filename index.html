@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Welcome to Testing’s documentation! &#8212; Testing 2.9.12 documentation</title>
+    
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '2.9.12',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="top" title="Testing 2.9.12 documentation" href="#" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="welcome-to-testing-s-documentation">
+<h1>Welcome to Testing&#8217;s documentation!<a class="headerlink" href="#welcome-to-testing-s-documentation" title="Permalink to this headline">¶</a></h1>
+<p>Contents:</p>
+<div class="toctree-wrapper compound">
+</div>
+<span class="target" id="module-Teacher"></span><dl class="class">
+<dt id="Teacher.Teacher">
+<em class="property">class </em><code class="descclassname">Teacher.</code><code class="descname">Teacher</code><a class="headerlink" href="#Teacher.Teacher" title="Permalink to this definition">¶</a></dt>
+<dd><p><strong>Purpose</strong>:</p>
+<p>This is a description of the Teacher class. 
+It creates a Teacher object that can tell the overall class gpa.</p>
+<dl class="method">
+<dt id="Teacher.Teacher.classGPA">
+<code class="descname">classGPA</code><span class="sig-paren">(</span><em>s1</em>, <em>s2</em>, <em>s3</em>, <em>s4</em>, <em>num_students</em><span class="sig-paren">)</span><a class="headerlink" href="#Teacher.Teacher.classGPA" title="Permalink to this definition">¶</a></dt>
+<dd><p><strong>Purpose:</strong> Calculates GPA from 3 classes</p>
+<p><strong>Args:</strong></p>
+<ul class="simple">
+<li>s1: grade for student 1</li>
+<li>s2: grade for student 2</li>
+<li>s3: grade for student 3</li>
+<li>num_students: number of students in the class</li>
+</ul>
+<p><strong>Returns / Expected Output:</strong> Class of students&#8217; average grade</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Teacher.Teacher.introduce">
+<code class="descname">introduce</code><span class="sig-paren">(</span><em>name</em><span class="sig-paren">)</span><a class="headerlink" href="#Teacher.Teacher.introduce" title="Permalink to this definition">¶</a></dt>
+<dd><p><strong>Purpose:</strong> Prints Teacher&#8217;s name</p>
+<p><strong>Args:</strong></p>
+<ul class="simple">
+<li>name: Teacher&#8217;s name</li>
+</ul>
+<p><strong>Returns / Expected Output:</strong> String Type: Teacher&#8217;s name</p>
+<p><strong>Discussion:</strong></p>
+<p>This function is important for using telling 
+the class who the teacher is.</p>
+<p><strong>Dependency</strong> What other module / is this function dependent on?</p>
+<ul class="simple">
+<li>Module : function</li>
+</ul>
+</dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-Student"></span><dl class="class">
+<dt id="Student.Student">
+<em class="property">class </em><code class="descclassname">Student.</code><code class="descname">Student</code><a class="headerlink" href="#Student.Student" title="Permalink to this definition">¶</a></dt>
+<dd><p><strong>Purpose</strong>:</p>
+<p>This is a description of the Student class. 
+It creates a Student object with a name and gpa.</p>
+<dl class="method">
+<dt id="Student.Student.gpa">
+<code class="descname">gpa</code><span class="sig-paren">(</span><em>c1</em>, <em>c2</em>, <em>c3</em><span class="sig-paren">)</span><a class="headerlink" href="#Student.Student.gpa" title="Permalink to this definition">¶</a></dt>
+<dd><p><strong>Purpose:</strong> Calculates GPA from 3 classes</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>c1</strong> &#8211; grade for class 1</li>
+<li><strong>c2</strong> &#8211; grade for class 2</li>
+<li><strong>c3</strong> &#8211; grade for class 3            :type name: str</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">double &#8211; Average of the three class grades</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="Student.Student.introduce">
+<code class="descname">introduce</code><span class="sig-paren">(</span><em>name</em><span class="sig-paren">)</span><a class="headerlink" href="#Student.Student.introduce" title="Permalink to this definition">¶</a></dt>
+<dd><p><strong>Purpose:</strong> Prints student&#8217;s name</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>name</strong> (<em>str</em>) &#8211; Student&#8217;s name</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body">string &#8211; name of Student</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></li>
+<li><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></li>
+<li><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></li>
+</ul>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="#">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Welcome to Testing&#8217;s documentation!</a></li>
+<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="#">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/index.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2016, Nick.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.4.8</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.9</a>
+      
+      |
+      <a href="_sources/index.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
