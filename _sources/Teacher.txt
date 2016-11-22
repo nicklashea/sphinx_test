@@ -1,0 +1,5 @@
+Teacher
+=======
+
+.. automodule:: Teacher
+	:members:
